@@ -1,13 +1,14 @@
-**NadMaxnet Arena LAN Party Web Application**
+# Run and deploy your AI Studio app
 
-A dynamic and interactive web application designed to manage and enhance private LAN party events for the NadMaxnet Arena community. This platform features:
+This contains everything you need to run your app locally.
 
-* **Event Management:** Displays upcoming LAN party details, including date, time, and duration.
-* **Player Status Tracking:** Shows confirmed and interested player counts for upcoming events.
-* **Game Management:** Catalogs a comprehensive list of playable games (both classic and modern, with a humorous exclusion of League of Legends), including details and direct download links.
-* **Game Voting System:** Allows participants to vote on preferred games, influencing the event's game lineup.
-* **Randomized Play Order:** Generates and displays a randomized sequence for game sessions.
-* **Administrator Dashboard:** A secure, authenticated panel for event organizers to manage game lists, update event details, and oversee voting results.
-* **CoD2 CD-Key Provisioning:** Provides a utility for randomly generating and copying Call of Duty 2 CD-Keys from a pre-defined pool.
+## Run Locally
 
-Developed with a focus on user experience, responsiveness, and robust data persistence via Firebase, ensuring a seamless and engaging experience for all LAN party attendees.
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
